@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup webpage</title>
+</head>
+<style>
+    h1{background-color: rgb(243, 239, 239);
+       color: rgb(10, 11, 13);
+        padding: 10px;
+    }
+    nav ul {
+        display: flex;
+        background-color: black;
+        justify-content: space-between;
+        padding: 10px;
+        border-top: 10px;
+    }
+    li a {
+        padding: 15px;
+        
+        color: aliceblue;
+    }
+    form ,label ,input{
+        margin: 10px;
+    }
+</style>
+<body>
+    <h1>Naren Karthick M</h1>
+    <nav>
+        <center>
+        <ul style="list-style-type: nona;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="educcation.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+        </center>
+    </nav>
+    <nav>
+        <form>
+            <label for="name" >Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email"><br>
+
+            <label for="phno">Phone No. :</label>
+            <input type="number" id="phno"><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female">
+            <label for="female">Female</label><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox" id="html" >
+            <label for="html"> Html</label>
+            <input type="checkbox" id="js">
+            <label for="js">Java Script</label>
+            <input type="checkbox" id="SQL">
+            <label for="SQL"> SQL</label><br>
+
+            <label for="msg">Message:</label>
+            <textarea id="msg" rows="4" cols="30">Your Message</textarea><br>
+
+            <input type="submit" id="submit" value="submit">
+            <input type="reset" id="reset" value="reset">
+
+
+        </form>
+    </nav>
+
+    
+</body>
+</html>
